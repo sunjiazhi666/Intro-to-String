@@ -5,8 +5,8 @@ public class introtostring
 
 		public static void main(String[] args)
 			{
-				challenge1();
-				challenge2();
+				//challenge1();
+				//challenge2();
 				challenge3();
 			}
 
@@ -15,13 +15,28 @@ public class introtostring
 				System.out.println("vowels checker, write a sentence");
 				Scanner userInput1 = new Scanner(System.in);
 				String sentence = userInput1.nextLine();
-				String vowels1 = "a";
-				String vowels2 = "e";
-				String vowels3 = "i";
-				String vowels4 = "o";
-				String vowels5 = "u";
+				int i = 0;
+				int counter = 0;
 				
-				for()
+				for(i = 0; i < sentence.length(); i ++){
+				switch (sentence.substring( i , i+1)){
+					case "a": 
+					case "e": 
+					case "i": 
+					case "o":
+					case "u": 
+						{
+							counter ++;
+						}
+					
+				}
+				}
+				
+				if(counter = 1){
+					
+				}
+				System.out.println("There" + counter);
+				
 				
 			}
 
