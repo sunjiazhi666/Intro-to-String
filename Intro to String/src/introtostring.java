@@ -5,8 +5,8 @@ public class introtostring
 
 		public static void main(String[] args)
 			{
-				//challenge1();
-				//challenge2();
+				challenge1();
+				challenge2();
 				challenge3();
 			}
 
@@ -25,6 +25,11 @@ public class introtostring
 					case "i": 
 					case "o":
 					case "u": 
+					case "A": 
+					case "E": 
+					case "I": 
+					case "O":
+					case "U": 
 						{
 							counter ++;
 						}
@@ -32,10 +37,16 @@ public class introtostring
 				}
 				}
 				
-				if(counter = 1){
+				if(counter == 1){
+					System.out.println("There is only 1 vowel in your sentence");
 					
 				}
-				System.out.println("There" + counter);
+				
+				else{
+					System.out.println("ther are " + counter + " vowels in your sentence" );
+					
+				}
+		
 				
 				
 			}
